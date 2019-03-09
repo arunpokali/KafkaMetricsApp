@@ -1,0 +1,12 @@
+{
+	"brokers": "localhost:9092",
+	"zookeeper": "localhost:2181",
+	"topics": [
+		"murali_test"
+	],
+	"groups": [
+		"murali_test_group"
+	],
+	"httpreporter": ["http://localhost:8080/api/metrics"],
+	"httpenabled": true
+}

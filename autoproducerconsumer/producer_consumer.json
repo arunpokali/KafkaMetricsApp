@@ -1,0 +1,25 @@
+{
+	"kafkaBroker": "localhost:9092",
+	"poll": 1,
+	"offsetLatest": "latest",
+	"offsetEarliest": "earliest",
+	"pjobs": [
+		{
+			"topicname": "multiproducer",
+			"clientid": "multiclient1",
+			"delay": 4
+		}
+	],
+	"cjobs": [
+		{
+			"topic": "multiproducer",
+			"groupid": "group1",
+			"delay": 4
+		},
+		{
+			"topic": "multiproducer",
+			"groupid": "group1",
+			"delay": 6
+		}
+	]
+}
